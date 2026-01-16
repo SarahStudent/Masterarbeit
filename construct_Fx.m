@@ -193,7 +193,7 @@ for i = 1:3
 end
 
 cb = colorbar('Position',[0.93 0.11 0.02 0.78]);
-cb.Label.String = '$x_1$';
+cb.Label.String = '$1-x_1$';
 cb.Label.Interpreter = 'latex';
 cb.Ticks = 0:0.2:1;
 
