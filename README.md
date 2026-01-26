@@ -55,7 +55,7 @@ Eingabegrößen
 
 Funktionen:
 - function Fx = ComputeF(x0, r, Q, V, D, alpha, x_min, x_max, y_min, y_max): Berechnet $F(x)$.
-- function [N, midpoints] = ComputeOuterNormals(I): Berechnet die Außennormalen der polyedrischen Approximation $I$.
+- function [N, midpoints] = ComputeOuterNormals(I): Berechnet die Außennormalen der polyedrischen Menge $I$.
 - function [w_star, y_star, x_star] = ChooseWorstNormalGeneral(N, W, Fxbar, r, Q, V, D, alpha, y_min, y_max, x_min, x_max): Bestimmt eine Richtung, die potentiell ein Verbesserung erlaubt und noch nicht getestet wurde.
 
 ## Bilddateien (.jpg)
