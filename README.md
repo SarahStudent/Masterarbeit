@@ -41,7 +41,7 @@ Hilfsfunktionen:
 - function I = append_point_to_hull(I, y): Fügt den Punkt $y$ der konvexen Hülle von $I$ hinzu.
 
 ### construct_Fx.m und portfolio_optimization.m
-In diesem Beispiel wird die Portfoliooptimierung behandelt. Die herkömmliche multikriterielle Portfoliooptimierung (maximiere Rendite mit gleichzeitiger Minimierung des Riskikos) wird mengenwertig erweitert zu einem zweistufigen Modell, indem eine Unsicherheit hinzugefügt wird: $F(x) = conv((-r^Tx,x^Tqx)^T + \delta(x)V)-\mathbb{R}^2_+$ mit $\sum_j x_j=1, x \geq 0$. Ausgangsportfolio ist $(0,1)^T$ und $\epsilon$-Optimierer ist $(\frac{1}{3}, \frac{2}{3})^T$.
+In diesem Beispiel wird die Portfoliooptimierung behandelt. Die herkömmliche multikriterielle Portfoliooptimierung (maximiere Rendite mit gleichzeitiger Minimierung des Riskikos) wird mengenwertig erweitert zu einem zweistufigen Modell, indem eine Unsicherheit hinzugefügt wird: $F(x) = conv((r^Tx,-x^TQx)^T + \delta(x)V)-\mathbb{R}^2_+$ mit $\sum_j x_j=1, x \geq 0$. Ausgangsportfolio ist $(0,1)^T$ und $\epsilon$-Optimierer ist $(\frac{1}{3}, \frac{2}{3})^T$.
 
 Eingabegrößen
 - $x0$ ist das Ausgangsportfolio
