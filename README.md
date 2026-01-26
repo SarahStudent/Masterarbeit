@@ -5,7 +5,7 @@ Ergänzendes und zusätzliches Material zur Masterarbeit "Ein Algorithmus für k
 ## Voraussetzungen
 Damit die Codedateien ausgeführt werden können, muss MATLAB, CVX und GLPK installiert sein. Die Dateien sind mit MATLAB Version 25.2 (R2025b) erstellt worden.
 
-## Hauptziel und Thema der Bachelorarbeit und diesem Repository
+## Hauptziel und Thema der Masterarbeit und diesem Repository
 In der Masterarbeit wird eine **Lösungsmethode für kompakt-konvexe Mengenoptimierungsprobleme** vorgestellt. Das entwickelte Verfahren liefert einen $\epsilon$-Optimierer, der die Zielfunktion bzgl. der Mengeninklusion $\subseteq$ bis auf eine vorgegebene Toleranz maximiert. In Zuge dessen sind ein **Algorithmus** zur Konstruktion eines $\epsilon$-Optimierers und eine **beispielhafte Implementierung**, die für zwei ausgewählte Beispiele einen $\epsilon$-Optimierer berechnet, entwickelt worden. Die zentrale Funktionsweise des Algorithmus besteht darin iterativ die Facetten einer polyedrischen Innenapproximation möglichst weit nach außen zu erschieben und dadurch diejenige Menge $F(x)$ identifizieren, die die Funktion bezüglich der Mengeninklusion maximiert. Für eine ausführliche Einführung in das Thema wird auf die Masterarbeit verwiesen, die sich als PDF in dem Repository befindet.
 
 ## Codedateien (.m)
